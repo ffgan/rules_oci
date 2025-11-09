@@ -207,6 +207,7 @@ def _oci_extension(module_ctx):
     buildx_platforms = {
         "linux-arm64": "6e9e455b5ec1c7ac708f2640a86c5cecce38c72e48acff6cb219dfdfa2dda781",
         "linux-amd64": "805195386fba0cea5a1487cf0d47da82a145ea0a792bd3fb477583e2dbcdcc2f",
+        "linux-riscv64": "812cffddafac44c0ff7a86221c321763c49a32ea65e1194ef489ba1ef5e47e70",
         "darwin-arm64": "5898c338abb1f673107bc087997dc3cb63b4ea66d304ce4223472f57bd8d616e",
         "darwin-amd64": "5221ad6b8acd2283f8fbbeebc79ae4b657e83519ca1c1e4cfbb9405230b3d933",
     }
@@ -224,6 +225,7 @@ def _oci_extension(module_ctx):
         "@buildx_linux-arm64//file": "@bazel_tools//src/conditions:linux_aarch64",
         "@buildx_darwin-amd64//file": "@bazel_tools//src/conditions:darwin_x86_64",
         "@buildx_darwin-arm64//file": "@bazel_tools//src/conditions:darwin_arm64",
+        "@buildx_linux-riscv64//file": "@bazel_tools//src/conditions:linux_riscv64",
     }
 
     configure_buildx(

@@ -170,6 +170,7 @@ _PLATFORM_TO_BAZEL_CPU = {
     "linux/s390x": "@platforms//cpu:s390x",
     "linux/386": "@platforms//cpu:i386",
     "linux/mips64le": "@platforms//cpu:mips64",
+    "linux/riscv64": "@platforms//cpu:riscv64"
 }
 
 def oci_pull(
