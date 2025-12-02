@@ -1,6 +1,21 @@
 "Mirror of release info"
 
 CRANE_VERSIONS = {
+    "v0.20.7": {
+        "go-containerregistry-0": "sha256-1S6kxjWCNpUyaDqFAeS01MhihVNt3DxiKxKxaNMvWhQ=",
+        "darwin_arm64": "sha256-IQ2henJpqZBKm2eX77+X9LHlVnwJYvFo0Uiae9N18Uo=",
+        "darwin_x86_64": "sha256-aa+NooHNLNViRb8Xjehxm7zdL/3q5GtMYhwCv8b3XiI=",
+        "linux_arm64": "sha256-sE7m5JBNkhnHY4P1tzUhpj9p7Mk8CxhAhG7r/QcaY1U=",
+        "linux_armv6": "sha256-2NbJH2sMRHVAaxIFC2pwhBrTMK+fM5lFAnFH6ZEmuuo=",
+        "linux_i386": "sha256-nIhl/Gr0pL5ipkCTrpwvbtBfc+wy7SnP+gvNPsAAKYY=",
+        "linux_ppc64le": "sha256-+2yCNlgTgRn1wQCMsNUJtiBCUV0ZQY24ADtOpNKaxb8=",
+        "linux_riscv64": "sha256-Pmv6qMaYj5cCD0aVeCpQQ9woymR1w/t0fJssbc5vCas=",
+        "linux_s390x": "sha256-n4AXt6qEEBtkb88JVaYOKG++43XP4md0ZcroqTJ0Sa0=",
+        "linux_x86_64": "sha256-jvNWTSZOa1ypP3t/VlJwTE3SnTOTWv9pR91a3v0FlT4=",
+        "windows_arm64": "sha256-F78bRNWnc4dFr1iOaCLwkZwjLlQqbC5IRYmfWMflJI0=",
+        "windows_armv6": "sha256-f6u4AGD6vCh8GpRd3cmhC38fGTcTEvFRbexVGm0ndeg=",
+        "windows_x86_64": "sha256-Gx2OufIJZymYiAFpqE4G4wIQ1BGQp0qsBqKVPH3Gq5w=",
+    },
     "v0.18.0": {
         "go-containerregistry-0": "sha256-Jc71fORYho8n/Jlk6jI+VQoqrhr9SuQIEUZIrCMl+UA=",
         "darwin_arm64": "sha256-1vp5e6uDqr+eXAsBqjdQv50ophXaHYrTCD0PUn5vvuY=",
@@ -18,6 +33,16 @@ CRANE_VERSIONS = {
 }
 
 REGCTL_VERSIONS = {
+    "v0.11.0": {
+        "darwin-amd64": "sha256-hnV7lUnPcvVUxXNQDsXAsuEr5TNqizzQMhPAIas92bc=",
+        "darwin-arm64": "sha256-Hy3wkwnexvLsu/fgRkGS+yO8sG5seRz5zE/hvUNsxsc=",
+        "linux-amd64": "sha256-Hzo9BKPlDTO/ddqx1xwj0kSSvZ/F6eOdcwf1/1AuQN0=",
+        "linux-arm64": "sha256-lpo0y6NDaMzAZOyOQY6gc886luRF15jZiHCaVqwxN7M=",
+        "linux-ppc64le": "sha256-lYvRGmskdvipiWo4Hls0ZPCq1icQFUKE7onIQgHVgRA=",
+        "linux-riscv64": "sha256-512EO4KbGrQX1g21gq5Z1dcwnmopi3vbK/XSYYnY8ys=",
+        "linux-s390x": "sha256-qlnzRWYONkyHMawdngsFw+UKn54vL+Vo99sJWa1wN3M=",
+        "windows-amd64": "sha256-hZ7LHtLNY7AmAimEJ3ngLpEQlcHfilImFSWrGOenycM=",
+    },
     "v0.8.0": {
         "darwin-amd64": "sha256-RHuyX4G1Sk1plj0spLmK476+Jljk/fqh3oOAvCzCwuw=",
         "darwin-arm64": "sha256-jUzYxiyhtoeh4clFm8kdLfkzmHkk65+YksB/eBJAqJU=",

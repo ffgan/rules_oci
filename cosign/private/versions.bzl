@@ -8,6 +8,7 @@ COSIGN_VERSIONS = {
         "linux-arm": "sha256-jaiXdkto7yxikaJyROeidKCbmPgMnRtsXoHvLi5Ouew=",
         "linux-arm64": "sha256-VqFkgL3VbseJq6plkkQC9rksAEHwaIWZWFPAVWe3bzQ=",
         "linux-ppc64le": "sha256-vn642hpl2gu7YaEVp+E88FsjN57pdpFZl0uK1pDU8Fc=",
+        "linux-riscv64": "sha256-oiTNbFuPivtiNhd0Zhlqy65M5nvY6Tpu1izXCIvVuCQ=",
         "linux-s390x": "sha256-6AybLpHQBp2XqQabBcR9yj+eGbRlLEx+bKMx14e6CXI=",
     },
     "v2.2.3": {
@@ -17,6 +18,7 @@ COSIGN_VERSIONS = {
         "linux-arm": "sha256-ywrOSvXPIoncxhZZF08tW9CzGpOOu9O2S2UKT9njRr8=",
         "linux-arm64": "sha256-sIjWdvDAEjuMNI4Y1CHPlmAg7cSXekhhFaEmQ96pmj8=",
         "linux-ppc64le": "sha256-IaAWkdvfyzUbTpTM9QGk6HNyLPX+b2epc172bstBlB0=",
+        "linux-riscv64": "sha256-wGqledPdIWDbbhCpqFITQcVGGM1HOXi2YePdJACnyVs=",
         "linux-s390x": "sha256-1yzyiRkNKMacuVxeMhOaoZgf/KCoQyfImgErsfOoBR0=",
     },
     "v2.0.2": {
@@ -26,6 +28,7 @@ COSIGN_VERSIONS = {
         "linux-arm": "sha256-aG72FgiJ6E5XEFBTRbW1XO8Ic5B9DvWVTIN9nWR88Wk=",
         "linux-arm64": "sha256-UX6W+dA2xLd9sBEyys2+8h5CZumtOpPmd3PFkLpU4m8=",
         "linux-ppc64le": "sha256-ciPMSusQW6l0Gfn2lHXw2aDCp7O9YsTxpkLGAtei9zQ=",
+        "linux-riscv64": "sha256-PxuEn0PwrcT9E2d25LssUOgSmp3/r+PMqEcvNzw8ldc=",
         "linux-s390x": "sha256-SwLRYzmENB1lcLj32HcsUdaubkV6kqJRcr12PclFJSQ=",
     },
     "v2.0.1": {
@@ -35,6 +38,7 @@ COSIGN_VERSIONS = {
         "linux-arm": "sha256-BoFfZKzg/44pXk/rlHD92nC2NuLn9Yk0MiIXUbtDKi0=",
         "linux-arm64": "sha256-SozUlRjMZnuxbmqvnaKRtkfDi6/6Ri/UlQQ65nYvaYE=",
         "linux-ppc64le": "sha256-5ZWw+KZBNnqhhgWpN+WZOpDpIaYtcSREnnFOlsrlIb0=",
+        "linux-riscv64": "sha256-bEQbnG6F0m42NN7zciemBxMAhcPBoxI4zUhX2RcCZVk=",
         "linux-s390x": "sha256-sb3I5UW9muztuvjq1zymOlVl2jmxsEynIO/6iAQkE6g=",
     },
     "v2.0.0": {
