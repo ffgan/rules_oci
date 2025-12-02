@@ -60,7 +60,7 @@ regctl_toolchain(
     regctl = "regctl{ext}",
 )
 """
-REGCTL_VERSION = "v0.8.0"
+REGCTL_VERSION = "v0.11.0"
 
 REGCTL_PLATFORMS = {
     name: platform
