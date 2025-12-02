@@ -27,6 +27,14 @@ config_setting(
 )
 
 config_setting(
+    name = "platform_linux_riscv64",
+    constraint_values = [
+        "@platforms//os:linux",
+        "@platforms//cpu:riscv64",
+    ],
+)
+
+config_setting(
     name = "platform_linux_amd64",
     constraint_values = [
         "@platforms//os:linux",

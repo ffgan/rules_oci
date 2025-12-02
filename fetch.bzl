@@ -111,6 +111,7 @@ def fetch_images():
             "linux/mips64le",
             "linux/ppc64le",
             "linux/s390x",
+            "linux/riscv64",
         ],
         # It will print a warning on every build about the "latest" tag being non-reproducible.
         # Un-comment the following line to suppress the warning:
