@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/theoremlp/rules_multitool/main/lockfile.schema.json",
+  "$schema": "https://raw.githubusercontent.com/ffgan/rules_multitool/rv64/lockfile.schema.json",
   "buildx": {
     "binaries": [
       {
@@ -8,6 +8,13 @@
         "sha256": "8c38f60308a895fa570f1410e453c5de11aafd65a99fa99965d96d24b6225a78",
         "os": "linux",
         "cpu": "x86_64"
+      },
+      {
+        "kind": "file",
+        "url": "https://github.com/docker/buildx/releases/download/v0.20.1/buildx-v0.20.1.linux-riscv64",
+        "sha256": "f4cf6e6a6f27e571e5210cf6324b720c10548b0a0b59e0b1381b43fde0604c65",
+        "os": "linux",
+        "cpu": "riscv64"
       },
       {
         "kind": "file",
@@ -64,6 +71,13 @@
       },
       {
         "kind": "file",
+        "url": "https://github.com/docker/compose/releases/download/v2.32.4/docker-compose-linux-riscv64",
+        "sha256": "392f705e6b1ad99b8bf761f4be8211d531fbacbcad1326f14f1cdcfc68c25a6b",
+        "os": "linux",
+        "cpu": "riscv64"
+      },
+      {
+        "kind": "file",
         "url": "https://github.com/docker/compose/releases/download/v2.32.4/docker-compose-linux-x86_64",
         "sha256": "ed1917fb54db184192ea9d0717bcd59e3662ea79db48bff36d3475516c480a6b",
         "os": "linux",
@@ -96,6 +110,13 @@
       },
       {
         "kind": "file",
+        "url": "https://github.com/ffgan/jd/releases/download/v2.3.1/jd-riscv64-linux",
+        "sha256": "c4a99fd57a47a50661dacf2492addd3b727356e460c05ea166a1dc13bd44b029",
+        "os": "linux",
+        "cpu": "riscv64"
+      },
+      {
+        "kind": "file",
         "url": "https://github.com/josephburnett/jd/releases/download/v1.9.1/jd-arm64-darwin",
         "sha256": "8f34988fc77c577157b57ad22b8e3624f033396715cae208cc368eeb7f6d6823",
         "os": "macos",
@@ -119,6 +140,14 @@
         "sha256": "693b66def2d8dacdfcb5a011b7c32a8e89a13bdc031db8dc40c0759a38253103",
         "os": "linux",
         "cpu": "arm64"
+      },
+      {
+        "kind": "archive",
+        "url": "https://github.com/ffgan/multitool/releases/download/v0.10.0/multitool-riscv64gc-unknown-linux-gnu.tar.xz",
+        "file": "multitool-riscv64gc-unknown-linux-gnu/multitool",
+        "sha256": "3e8a9d2bd56985376a34c9d39430720095e2cdd108a34ec817236ad32cb45507",
+        "os": "linux",
+        "cpu": "riscv64"
       },
       {
         "kind": "archive",
