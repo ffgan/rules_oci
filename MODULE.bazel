@@ -9,7 +9,7 @@ bazel_dep(name = "aspect_bazel_lib", version = "2.7.10")
 bazel_dep(name = "bazel_features", version = "1.10.0")
 bazel_dep(name = "bazel_skylib", version = "1.8.2")
 bazel_dep(name = "platforms", version = "1.0.0")
-bazel_dep(name = "tar.bzl", version = "0.7.0")
+bazel_dep(name = "tar.bzl", version = "0.8.0.1")
 
 
 archive_override(
@@ -17,6 +17,13 @@ archive_override(
     urls = ["https://github.com/ffgan/bazel-lib/releases/download/v2.7.10/bazel-lib-v2.7.10.tar.gz"],
     strip_prefix = "bazel-lib-2.7.10",
     integrity = "sha256-ZEfemieFl71vyiGXN4Sf7OtK2XSpRm+HPKXuFdyJ94A=",
+)
+
+archive_override(
+    module_name = "tar.bzl",
+    urls = ["https://github.com/ffgan/tar.bzl/releases/download/v0.8.1/tar.bzl-v0.8.1.tar.gz"],
+    strip_prefix = "tar.bzl-0.8.1",
+    integrity = "sha256-6fxUCppV6s4KvakKBgYpcVU3tvVqbebCHLKFQesctPk=",
 )
 
 oci = use_extension("//oci:extensions.bzl", "oci")
