@@ -44,6 +44,14 @@
       },
       {
         "kind": "archive",
+        "url": "https://github.com/ffgan/docker-riscv64-prebuilt/releases/download/v0.0.1/docker-0.0.0-20251223174200-874b831.tgz",
+        "file": "docker/docker",
+        "sha256": "e326722d32d27fb1de9c5b6e63f91e29b15eaddbb0e8e7cc58162db5a3a6592a",
+        "os": "linux",
+        "cpu": "riscv64"
+      },
+      {
+        "kind": "archive",
         "url": "https://download.docker.com/mac/static/stable/aarch64/docker-23.0.0.tgz",
         "file": "docker/docker",
         "sha256": "9da5c51771bf0f76bc5e278791dd9c9b6f7f4877617ac952dd5c88efb7a9ff10",
