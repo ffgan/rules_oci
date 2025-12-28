@@ -11,11 +11,12 @@ def http_archive(**kwargs):
     maybe(_http_archive, **kwargs)
 
 def rules_oci_dependencies():
+    # TODO: multitools,bazel_lib
     http_archive(
         name = "tar.bzl",
-        sha256 = "a0d64064a598d7a1e58196d17de0deed6d3d2d8bfe1407ed9e68b24c31c38e8d",
-        strip_prefix = "tar.bzl-0.7.0",
-        url = "https://github.com/bazel-contrib/tar.bzl/releases/download/v0.7.0/tar.bzl-v0.7.0.tar.gz",
+        sha256 = "729518d070bb06db531c88df6f527b471caa7e6e3a8276793b445eead94b7371",
+        strip_prefix = "tar.bzl-0.8.1",
+        url = "https://github.com/ffgan/tar.bzl/releases/download/v0.8.1/tar.bzl-v0.8.1.tar.gz",
     )
 
     http_archive(
