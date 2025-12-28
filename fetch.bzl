@@ -126,6 +126,7 @@ def fetch_images():
             "linux/arm64/v8",
             "linux/amd64",
         ],
+        # TODO: need to upgrade to gain rv64 support,but wait for this https://github.com/bazel-contrib/rules_oci/issues/798
         digest = "sha256:67211c14fa74f070d27cc59d69a7fa9aeff8e28ea118ef3babc295a0428a6d21",
     )
 
