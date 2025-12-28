@@ -47,6 +47,7 @@ copy_file(
     src = select({
         ":platform_linux_arm64": "say_hello_arm64.sh",
         ":platform_linux_amd64": "say_hello_amd64.sh",
+        ":platform_linux_riscv64": "say_hello_riscv64.sh",
     }),
     out = "entrypoint.sh",
     target_compatible_with = [
@@ -72,5 +73,6 @@ oci_image_index(
     platforms = [
         ":linux_amd64",
         ":linux_arm64",
+        ":linux_riscv64",
     ],
 )
