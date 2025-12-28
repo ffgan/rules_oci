@@ -9,7 +9,7 @@ bazel_dep(name = "aspect_bazel_lib", version = "2.7.10")
 bazel_dep(name = "bazel_features", version = "1.10.0")
 bazel_dep(name = "bazel_skylib", version = "1.8.2")
 bazel_dep(name = "platforms", version = "1.0.0")
-bazel_dep(name = "tar.bzl", version = "0.8.0.1")
+bazel_dep(name = "tar.bzl", version = "0.8.1")
 
 
 archive_override(
@@ -23,7 +23,15 @@ archive_override(
     module_name = "tar.bzl",
     urls = ["https://github.com/ffgan/tar.bzl/releases/download/v0.8.1/tar.bzl-v0.8.1.tar.gz"],
     strip_prefix = "tar.bzl-0.8.1",
-    integrity = "sha256-6fxUCppV6s4KvakKBgYpcVU3tvVqbebCHLKFQesctPk=",
+    integrity = "sha256-cpUY0HC7BttTHIjfb1J7Rxyqfm46gnZ5O0Re6tlLc3E=",
+)
+
+# Due to tar.bzl, we need to use the statement below to override the bazel_lib referenced by tar.bzl, even though it has already been overridden in tarbzl. 
+archive_override(
+    module_name = "bazel_lib",
+    urls = ["https://github.com/ffgan/bazel-lib/releases/download/v3.0.0.1/bazel-lib-v3.0.0.1.tar.gz"],
+    strip_prefix = "bazel-lib-3.0.0.1",
+    integrity = "sha256-IM8GpbsbnIK2FtpzwJhuIYLXahDT73PpWPFx/pWpx+8=",
 )
 
 oci = use_extension("//oci:extensions.bzl", "oci")
